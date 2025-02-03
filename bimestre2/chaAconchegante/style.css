@@ -1,0 +1,53 @@
+.container, a{
+    color: azure;
+}
+
+.hero{
+    background-color: blue;
+    position: relative;
+    text-align: center;
+
+}
+  body{
+    background-color: black;
+  }
+
+.logo{
+    height: 5px;
+}
+
+.container {
+    text-align: right; 
+    line-height: 20px; 
+    height: 20px; 
+
+  }
+
+.container, a{
+    padding: 10px;
+}
+
+.background{
+    padding: 20px;
+    position: relative;
+}
+
+.card{
+    float: left;
+    padding: 30px;
+    
+}
+
+.card img{
+    width: 400px;
+    padding: left 100px;;
+
+}
+
+h2{
+   color:white; 
+}
+
+p{
+    color: white;
+}
