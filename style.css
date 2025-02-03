@@ -54,3 +54,18 @@ h1 {
 .topo {
     width: 400px;
 }
+
+.um{
+    background-color: white;
+    width: 50px;
+  }
+  
+  .dois{
+    background-color:  rgb(168, 106, 177);
+    width: 50px;
+  }
+  
+  .tres{
+    background-color: rgb(107, 43, 180);
+    width: 50px;
+  }

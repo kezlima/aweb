@@ -34,18 +34,28 @@
 
 .card{
     float: left;
-    padding: 30px;
+    padding: 15px;
+    width: 200px;
+    position:relative;
+    padding-left: 500px;
+    text-align: center;
+    padding: 10px;
     
 }
 
 .card img{
-    width: 400px;
-    padding: left 100px;;
+    width: 200px;
+    padding: 15px;
+
+   
 
 }
 
-h2{
+h2,p{
    color:white; 
+   position: relative;
+   text-align: center;
+
 }
 
 p{
