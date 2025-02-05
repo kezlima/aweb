@@ -3,6 +3,7 @@
     background-color: rgb(107, 43, 180);
 }
 
+
 .container {
     text-align: right; 
     line-height: 20px; 
@@ -39,20 +40,29 @@
     color: #333;  
     
   }
+
  
   .card {
-    width: 25%;        
-    margin: 10px;     
-    float: left;       
-    background-color: #f0f0f0; 
-    padding: 10px;     
+    width: 300px; /* Defina apenas uma vez a largura */
+    height: 200px;
     text-align: center;
-    height: 400px;
+    margin: 0 auto; 
+    float: left;
+    
+    margin-right: 100px;
+    justify-items: center;
+  
+   
+    
   }
   
   .card img {
-    width: 100%;       
-    height: auto;      
+    width: 150px;           
+  }
+
+  .card, h2 {
+    font-size: 15px;
+
   }
  
 body {
@@ -122,7 +132,7 @@ body {
 
 #educacao {
     clear: both; 
-    margin-top: 20px; 
+    margin-top: -20px; 
 }
 
 
