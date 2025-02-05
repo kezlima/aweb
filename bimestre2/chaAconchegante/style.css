@@ -2,9 +2,11 @@
     color:seashell;
     font-size: 22px;
     font-family:Helvetica, sans-serif;
-    padding: 10px;
+    padding: 5px;
 }
-
+.cabecalho{
+    height: 50px;
+}
 .hero{
     background-color: blue;
     position: relative;
@@ -17,14 +19,14 @@
 
 .logo{
     height: 5px;
-    margin-left:200px;
+    margin-left:100px;
 }
 
 .container {
     text-align: right; 
     line-height: 20px; 
     height: 20px; 
-    margin-right: 200px;
+    margin-right: 90px;
 
   }
 
@@ -85,9 +87,10 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-bottom: 10pxs;
+        margin-bottom: 10px;
         font-family:Helvetica, sans-serif;
         font-size: 22px;
+        margin-bottom: 20px;
    
 
     }
@@ -95,8 +98,9 @@
     .card img {
         width: 300px; /* A imagem ocupará 100% da largura do card */
         height: auto; /* Ajusta a altura da imagem conforme o card */
-        margin-bottom: 10pxs;
         max-height:300px;
+        margin-top: 40px;
+        
 
     }
     .card h4 {
@@ -136,10 +140,9 @@ h4,h5{
 
 .img2{
     margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    z-index: 1;
-    margin-top: 80px;
+    margin-top:100px;
+    width: 500px; /* Esconde a parte que ultrapassar */
+
 
 
 }
@@ -156,6 +159,8 @@ h4,h5{
   .img2 {
     width: 100%;
     display: block;
+    overflow: hidden; /* Esconde a parte da imagem que ultrapassar o contêiner */
+
   }
   
   .container2 {
