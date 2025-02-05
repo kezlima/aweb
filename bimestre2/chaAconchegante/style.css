@@ -19,14 +19,14 @@
 
 .logo{
     height: 5px;
-    margin-left:100px;
+    margin-left:220px;
 }
 
 .container {
     text-align: right; 
     line-height: 20px; 
     height: 20px; 
-    margin-right: 90px;
+    margin-right: 200px;
 
   }
 
@@ -170,7 +170,7 @@ h4,h5{
     transform: translate(-50%, -50%);
     display: flex;
     gap: 20px;
-    margin-top: -100px;
+    margin-top:70px;
   }
   
   .divs {
@@ -196,3 +196,22 @@ h4,h5{
     margin-right: 2px;
     margin-bottom: 35px;
 }
+.location-container {
+    position: relative; /* Define o contêiner como referência para o texto */
+    display: inline-block; /* Ajusta o tamanho do contêiner à imagem */
+  }
+  
+  .img2 {
+    width: 100%; /* Ajuste conforme necessário */
+    height: auto; /* Mantém a proporção da imagem */
+  }
+  
+  .location {
+    color: seashell; /* Cor do texto */
+    font-size: 50px;
+    align-items: center;
+
+    
+   
+  }
+  

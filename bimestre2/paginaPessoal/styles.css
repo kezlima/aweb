@@ -3,7 +3,13 @@
     background-color: rgb(107, 43, 180);
 }
 
-
+.div1{
+  align-items: center;
+  margin-left: 200px;
+}
+.div2{
+  margin-left: 400px;
+}
 .container {
     text-align: right; 
     line-height: 20px; 
@@ -132,8 +138,5 @@ body {
 
 #educacao {
     clear: both; 
-    margin-top: -20px; 
 }
-
-
 
